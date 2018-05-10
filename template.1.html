@@ -46,7 +46,42 @@
           </form>
         </div>
       </nav>
-    
+      <div class="container-fluid">
+        <div class="container my-3" id="menu-container">
+          <form id="buscador">
+            <div class="form-row">
+              <div class="col">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-info">Categoria</button>
+                  <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Subcategoria</a>
+                    <a class="dropdown-item" href="#">Subcategoria</a>
+                    <a class="dropdown-item" href="#">Subcategoria</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                  <input type="text" class="form-control" placeholder="Ubicacion">
+              </div>
+              <div class="col">
+                  <input type="text" class="form-control" placeholder="Precio Desde">
+              </div>
+              <div class="col">
+                  <input type="text" class="form-control" placeholder="Precio Hasta">
+              </div>
+              <div class="col">
+                  <input type="text" class="form-control" placeholder="Fecha Sorteo" type="date">
+              </div>
+              <div class="col">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
