@@ -11,7 +11,7 @@
     <title>IOVI</title>
   </head>
   <body>
-    <!-- Inicio Menu -->
+      <!-- Inicio Menu -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">IOVI</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,9 @@
         </div>
       </nav>
       <!-- Fin Menu -->
+      
       <div class="container-fluid">
+        <!-- Buscador -->
         <div class="container">
           <nav class="navbar navbar-dark bg-dark">
             <form class="form-inline" id="buscador">
@@ -66,51 +68,103 @@
 
                 <input type="text" class="form-control-sm mr-sm-2" placeholder="Ubicacion">
                 <input type="text" class="form-control-sm mr-sm-2" placeholder="Precio Desde">
+                <p class="h5 text-light">a&nbsp;</p>
                 <input type="text" class="form-control-sm mr-sm-2" placeholder="Precio Hasta">
                 <input type="text" class="form-control-sm mr-sm-2" placeholder="Fecha Sorteo" type="date">
                 <button type="submit" class="btn-sm btn-primary">Submit</button>
             </form>
           </nav>    
         </div>
-        <!-- Buscador -->
-        <!--
-        <div class="container my-3" id="menu-container">
-          <form id="buscador">
-            <div class="form-row">
-              <div class="col">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-info">Categoria</button>
-                  <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="sr-only">Toggle Dropdown</span>
-                  </button>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Subcategoria</a>
-                    <a class="dropdown-item" href="#">Subcategoria</a>
-                    <a class="dropdown-item" href="#">Subcategoria</a>
+        <!-- Fin Buscador -->
+        <br>
+        <!-- Resultados -->
+        <div class="container">
+          <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <a href="#"><img class="card-img-top" src="img/imagen2.svg" alt="Card image cap"></a>
+                  <div class="card-body">
+                    <a href="#"><h5 class="card-title">Titulo del servicio</h5></a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">
+                      <small class="text-muted">Empresa del servicio</small>
+                      <br>
+                      <small class="text-muted">Fecha sorteo</small>
+                      <br>
+                      <small class="text-right">$123456</small>
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                  <input type="text" class="form-control" placeholder="Ubicacion">
-              </div>
-              <div class="col">
-                  <input type="text" class="form-control" placeholder="Precio Desde">
-              </div>
-              <div class="col">
-                  <input type="text" class="form-control" placeholder="Precio Hasta">
-              </div>
-              <div class="col">
-                  <input type="text" class="form-control" placeholder="Fecha Sorteo" type="date">
-              </div>
-              <div class="col">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="col-sm-6">
+              <div class="card">
+                <a href="#"><img class="card-img-top" src="img/imagen2.svg" alt="Card image cap"></a>
+                <div class="card-body">
+                  <a href="#"><h5 class="card-title">Titulo del servicio</h5></a>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">
+                    <small class="text-muted">Empresa del servicio</small>
+                    <br>
+                    <small class="text-muted">Fecha sorteo</small>
+                    <br>
+                    <small class="text-right">$123456</small>
+                  </p>
+                </div>
               </div>
             </div>
-          </form>
+          </div>
+          <br>
+          <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <a href="#"><img class="card-img-top" src="img/imagen2.svg" alt="Card image cap"></a>
+                  <div class="card-body">
+                    <a href="#"><h5 class="card-title">Titulo del servicio</h5></a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">
+                      <small class="text-muted">Empresa del servicio</small>
+                      <br>
+                      <small class="text-muted">Fecha sorteo</small>
+                      <br>
+                      <small class="text-right">$123456</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <a href="#"><img class="card-img-top" src="img/imagen2.svg" alt="Card image cap"></a>
+                  <div class="card-body">
+                    <a href="#"><h5 class="card-title">Titulo del servicio</h5></a>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">
+                      <small class="text-muted">Empresa del servicio</small>
+                      <br>
+                      <small class="text-muted">Fecha sorteo</small>
+                      <br>
+                      <small class="text-right">$123456</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- Fin Resultados -->
+          <br>
+          <!-- Paginador -->
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+          <!-- Fin Paginador -->
         </div>
-        -->
-        <!-- Fin Buscador -->
-      </div>    
+      </div>
+      
+      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
